@@ -58,6 +58,9 @@ export class CategoryManageComponent  implements OnInit{
     ngOnInit() {
       this. params = this.route.snapshot.paramMap.get('id');
       console.log("params =", this.params)
+      console.log("params =", this.params)
+      console.log("params =", this.params)
+      console.log("params =", this.params)
       console.log('mode:', this.mode)
 
       if(this.mode == 'edit'){
