@@ -101,6 +101,9 @@ export class StockDetailManageComponent implements OnInit {
     console.log('mode:', this.mode);
     console.log('mode:', this.mode);
 
+    console.log('NONGTONG', this.mode);
+    
+
     this.getDropdownCategory();
     this.onSearch();
 
