@@ -79,6 +79,12 @@ export class StockDetailManageComponent implements OnInit {
     this.params = this.route.snapshot.paramMap.get('id');
     console.log('params =', this.params);
     console.log('mode:', this.mode);
+    console.log('mode:', this.mode);
+    console.log('mode:', this.mode);
+    console.log('mode:', this.mode);
+    console.log('mode:', this.mode);
+    console.log('mode:', this.mode);
+    console.log('mode:', this.mode);
 
     this.getDropdownCategory();
     this.onSearch();
