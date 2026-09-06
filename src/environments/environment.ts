@@ -1,7 +1,7 @@
 // dev
 export const environment = {
   production: false,
-  apiUrl : 'https://stock-system-1qye.onrender.com/stock-api',
+  apiUrl : 'http://localhost:8080/',
   version: 'v0.0.01'
 };
 
