@@ -13,7 +13,7 @@
   pInputText
   [(ngModel)]="searchKeyword"
   placeholder="{{ 'main.stock.stockmain.stockmainsearch.searchPlaceholder' | translate }}"
-  (input)="onSearch()"
+  (keyup.enter)="onSearch()"
   class="px-4 py-2 rounded-lg border w-64 h-[42px]"
 />
 

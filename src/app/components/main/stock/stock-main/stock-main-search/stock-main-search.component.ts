@@ -70,6 +70,10 @@ export class StockMainSearchComponent implements OnInit {
     // ⭐ ล้าง sku ออก ให้ backend ค้นหาจาก name field เดียว (OR ทั้ง name และ sku)
     this.criteria.sku = undefined;
 
+    if(this.criteria.name){
+      this.criteria.name = this.criteria.name.trim()
+    }
+
     if (event) {
       this.criteria.size = event.rows;
       this.criteria.first = event.first;
